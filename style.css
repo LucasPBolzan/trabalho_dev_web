@@ -1,0 +1,95 @@
+
+
+header {
+    background: blue;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+}
+
+
+nav ul {
+    display: flex; 
+    justify-content: center; 
+    gap: 24px; 
+    list-style: none; 
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+#noticia {
+    background-color: white; 
+    padding: 20px; 
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+    text-align: center; 
+    width: 50%; 
+    max-width: 600px; 
+    margin: 50px auto; 
+    display: flex; 
+    flex-direction: column; 
+    align-items: center; 
+}
+
+#destaques {
+    display: flex; 
+    justify-content: center; 
+    gap: 20px; 
+    margin-top: 30px; 
+}
+
+#destaques article {
+    background-color: white;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    width: 30%; 
+    max-width: 250px; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#formulario-contato {
+    max-width: 500px; 
+    margin: 20px auto; 
+    padding: 20px; 
+    border-radius: 10px; 
+    background-color: white; 
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); 
+}
+
+footer {
+    background-color: blue; 
+    color: white; 
+    padding: 20px; 
+    display: flex; 
+    justify-content: space-around;
+    border-radius: 10px;
+}
+
+.footer-section {
+    text-align: left; 
+}
+
+.footer-section a {
+    color: white;
+    text-decoration: none;
+}
+
+.link-noticia{
+    text-decoration: none;
+    color: blue;
+    font-size: 20px;
+}
